@@ -16,9 +16,9 @@ class ScheduleSeeder extends Seeder
     public function run()
     {
         $schedule = Schedule::create([
-            'event' => 'Pemilu Raya BEM UNDIP 2023',
-            'start_time' => '2024-11-04 06:30:00',
-            'end_time' => '2024-11-04 23:59:00',
+            'event' => 'Pemilu Raya BEM UNDIP 2024',
+            'start_time' => '2024-11-05 06:30:00',
+            'end_time' => '2024-11-05 17:00:00',
         ]);
     }
 }
