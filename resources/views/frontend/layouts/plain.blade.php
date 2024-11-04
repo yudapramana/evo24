@@ -55,9 +55,9 @@
 @endif
 
 <body class="bg-orange-200 font-sans leading-normal tracking-normal">
-    <a href="https://api.whatsapp.com/send?phone=089691648839" class="floating-btn" target="_blank">
+    {{-- <a href="https://api.whatsapp.com/send?phone=089691648839" class="floating-btn" target="_blank">
         <i class="fab fa fa-whatsapp mt-4"></i>
-    </a>
+    </a> --}}
 
     {{-- @include('frontend.layouts.includes.header') --}}
     @yield('content')
