@@ -29,7 +29,7 @@
 
 
     <div class="hidden lg:visible lg:flex">
-        <img class="h-24" src="https://res.cloudinary.com/dezj1x6xp/image/upload/v1700062858/Proyek%20Pemira%20Undip%202023/Logo%20-%20logo/Logo_pemira_2023_pdbjdj.png" alt="Pemilihan">
+        <img class="h-24" src="http://res.cloudinary.com/dezj1x6xp/image/upload/v1730704111/PandanViewMandeh/Logo_Pemira_u4kng6.png" alt="Pemilihan">
     </div>
 
     <div class="hidden lg:visible lg:flex">

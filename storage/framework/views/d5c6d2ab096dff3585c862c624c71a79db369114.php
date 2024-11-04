@@ -12,7 +12,7 @@
             
             <nav class="navbar relative justify-center p-0 m-0" style="background: none !important; box-shadow:none !important">
                 
-                <img class="h-32" src="https://res.cloudinary.com/dezj1x6xp/image/upload/v1700062858/Proyek%20Pemira%20Undip%202023/Logo%20-%20logo/Logo_pemira_2023_pdbjdj.png" alt="Pemilihan">
+                <img class="h-32" src="http://res.cloudinary.com/dezj1x6xp/image/upload/v1730704111/PandanViewMandeh/Logo_Pemira_u4kng6.png" alt="Pemilihan">
                 
             </nav>
 
