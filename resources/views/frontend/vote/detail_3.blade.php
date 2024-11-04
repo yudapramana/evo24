@@ -28,7 +28,7 @@
         </div>
 
         <div class="hidden md:visible md:flex">
-            <img class="w-32 h-32" src="https://res.cloudinary.com/dezj1x6xp/image/upload/v1700062877/Proyek%20Pemira%20Undip%202023/Logo%20-%20logo/logo_senator_pbfd43.png" alt="Senat">
+            <img class="w-32 h-32" src="http://res.cloudinary.com/dezj1x6xp/image/upload/v1730722635/PandanViewMandeh/5_x99rpg.png" alt="Senat">
         </div>
         {{-- @if ($jurusan == 'Manajemen dan Bisnis Digital S1')
     <div>
@@ -70,7 +70,7 @@
             {{-- <span class="text-2xl gr-dark-orange text-black pl-3">@yield('title', config('app.name', ''))</span>
             --}}
             <span class="text-5xl gr-dark-orange text-black">PEMILIHAN SENAT {{ strtoupper($jurusan) }}</span> <br>
-            <span class="text-3xl gr-dark-orange text-black">FAKULTAS EKONOMIKA DAN BISNIS UNDIP 2023</span> <br>
+            <span class="text-3xl gr-dark-orange text-black">FAKULTAS EKONOMIKA DAN BISNIS UNDIP 2024</span> <br>
         </div>
         {{--
     </a> --}}
@@ -162,7 +162,7 @@
         @if (session('finish_vote'))
             <div class="text-center text-4xl font-extrabold font-serif italic mt-10">
                 <p data-aos="fade-up">Terima kasih! Kamu telah berpartisipasi pada pesta demokrasi FEB Universitas Diponegoro
-                    Tahun 2023</p>
+                    Tahun 2024</p>
             </div>
 
             <div class="text-center text-2xl font-extrabold font-serif italic mt-10">

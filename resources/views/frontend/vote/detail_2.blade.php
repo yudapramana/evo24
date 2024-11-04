@@ -28,24 +28,24 @@
         </div>
 
 
-        @if ($jurusan == 'Manajemen dan Bisnis Digital S1')
+        @if ($jurusan == 'Manajemen S1')
             <div>
-                <img class="h-32" src="https://res.cloudinary.com/dezj1x6xp/image/upload/v1700062856/Proyek%20Pemira%20Undip%202023/Logo%20-%20logo/logo_suksesi_MSA_Manajemen_dan_Bisnis_Digital_tduimn.png" alt="Manajemen">
+                <img class="h-32" src="http://res.cloudinary.com/dezj1x6xp/image/upload/v1730722493/PandanViewMandeh/1_nsiwsh.png" alt="Manajemen">
             </div>
         @endif
         @if ($jurusan == 'Ekonomi S1')
             <div>
-                <img class="h-32" src="https://res.cloudinary.com/dezj1x6xp/image/upload/v1700062883/Proyek%20Pemira%20Undip%202023/Logo%20-%20logo/Logo_Suksesi_DESC_Ekonomi_n34piu.png" alt="Ekonomi">
+                <img class="h-32" src="http://res.cloudinary.com/dezj1x6xp/image/upload/v1730722557/PandanViewMandeh/2_u8ayki.png" alt="Ekonomi">
             </div>
         @endif
         @if ($jurusan == 'Ekonomi Islam S1')
             <div>
-                <img class="w-32 h-32" src="https://res.cloudinary.com/dezj1x6xp/image/upload/v1700062856/Proyek%20Pemira%20Undip%202023/Logo%20-%20logo/Logo_Suksesi_HMEI_Ekonomi_Islam_na0ohz.jpg" alt="Ekonomi Islam">
+                <img class="w-32 h-32" src="http://res.cloudinary.com/dezj1x6xp/image/upload/v1730722609/PandanViewMandeh/4_m56un9.png" alt="Ekonomi Islam">
             </div>
         @endif
         @if ($jurusan == 'Akuntansi S1')
             <div>
-                <img class="w-32 h-32" src="https://res.cloudinary.com/dezj1x6xp/image/upload/v1700062857/Proyek%20Pemira%20Undip%202023/Logo%20-%20logo/Logo_Sukseesi_KMA_Akuntansi_agh11h.png" alt="Akuntansi">
+                <img class="w-32 h-32" src="http://res.cloudinary.com/dezj1x6xp/image/upload/v1730722581/PandanViewMandeh/3_ysfkuj.png" alt="Akuntansi">
             </div>
         @endif
 
@@ -60,7 +60,7 @@
             {{-- <span class="text-2xl gr-dark-orange text-black pl-3">@yield('title', config('app.name', ''))</span>
             --}}
             <span class="text-5xl gr-dark-orange text-black">SUKSESI HIMPUNAN {{ strtoupper($jurusan) }}</span> <br>
-            <span class="text-3xl gr-dark-orange text-black">FAKULTAS EKONOMIKA DAN BISNIS UNDIP 2023</span> <br>
+            <span class="text-3xl gr-dark-orange text-black">FAKULTAS EKONOMIKA DAN BISNIS UNDIP 2024</span> <br>
         </div>
         {{--
     </a> --}}
@@ -157,7 +157,7 @@
         @if (session('finish_vote'))
             <div class="text-center text-4xl font-extrabold font-serif italic mt-10">
                 <p data-aos="fade-up">Terima kasih! Kamu telah berpartisipasi pada pesta demokrasi FEB Universitas Diponegoro
-                    Tahun 2023</p>
+                    Tahun 2024</p>
             </div>
 
             <div class="text-center text-2xl font-extrabold font-serif italic mt-10">

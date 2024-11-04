@@ -95,7 +95,7 @@
         @if (session('finish_vote'))
             <div class="text-center text-4xl font-extrabold font-serif italic mt-10">
                 <p data-aos="fade-up">Terima kasih! Kamu telah berpartisipasi pada pesta demokrasi FEB Universitas Diponegoro
-                    Tahun 2023</p>
+                    Tahun 2024</p>
             </div>
         @endif
 

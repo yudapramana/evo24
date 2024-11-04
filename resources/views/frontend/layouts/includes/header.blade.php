@@ -29,24 +29,24 @@
 
 
     <div class="hidden lg:visible lg:flex">
-        <img class="h-24" src="http://res.cloudinary.com/dezj1x6xp/image/upload/v1730704111/PandanViewMandeh/Logo_Pemira_u4kng6.png" alt="Pemilihan">
+        <img class="h-20" src="http://res.cloudinary.com/dezj1x6xp/image/upload/v1730704111/PandanViewMandeh/Logo_Pemira_u4kng6.png" alt="Pemilihan">
     </div>
 
     <div class="hidden lg:visible lg:flex">
-        <img class="h-24" src="https://res.cloudinary.com/dezj1x6xp/image/upload/v1700062856/Proyek%20Pemira%20Undip%202023/Logo%20-%20logo/logo_suksesi_MSA_Manajemen_dan_Bisnis_Digital_tduimn.png" alt="Manajemen">
+        <img class="h-20" src="http://res.cloudinary.com/dezj1x6xp/image/upload/v1730722493/PandanViewMandeh/1_nsiwsh.png" alt="Manajemen">
     </div>
     <div class="hidden lg:visible lg:flex">
-        <img class="h-24" src="https://res.cloudinary.com/dezj1x6xp/image/upload/v1700062883/Proyek%20Pemira%20Undip%202023/Logo%20-%20logo/Logo_Suksesi_DESC_Ekonomi_n34piu.png" alt="Ekonomi">
+        <img class="h-20" src="http://res.cloudinary.com/dezj1x6xp/image/upload/v1730722557/PandanViewMandeh/2_u8ayki.png" alt="Ekonomi">
     </div>
     <div class="hidden lg:visible lg:flex">
-        <img class="w-24 h-24" src="https://res.cloudinary.com/dezj1x6xp/image/upload/v1700062857/Proyek%20Pemira%20Undip%202023/Logo%20-%20logo/Logo_Sukseesi_KMA_Akuntansi_agh11h.png" alt="Akuntansi">
+        <img class="w-20 h-20" src="http://res.cloudinary.com/dezj1x6xp/image/upload/v1730722581/PandanViewMandeh/3_ysfkuj.png" alt="Akuntansi">
     </div>
     <div class="hidden lg:visible lg:flex">
-        <img class="w-24 h-24" src="https://res.cloudinary.com/dezj1x6xp/image/upload/v1700062856/Proyek%20Pemira%20Undip%202023/Logo%20-%20logo/Logo_Suksesi_HMEI_Ekonomi_Islam_na0ohz.jpg" alt="Ekonomi Islam">
+        <img class="w-20 h-20" src="http://res.cloudinary.com/dezj1x6xp/image/upload/v1730722609/PandanViewMandeh/4_m56un9.png" alt="Ekonomi Islam">
     </div>
 
     <div class="hidden lg:visible lg:flex">
-        <img class="w-24 h-24" src="https://res.cloudinary.com/dezj1x6xp/image/upload/v1700062877/Proyek%20Pemira%20Undip%202023/Logo%20-%20logo/logo_senator_pbfd43.png" alt="Senat">
+        <img class="w-20 h-20" src="http://res.cloudinary.com/dezj1x6xp/image/upload/v1730722635/PandanViewMandeh/5_x99rpg.png" alt="Senat">
     </div>
 
     <div class="block lg:hidden">

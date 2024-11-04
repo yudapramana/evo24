@@ -65,32 +65,34 @@
 
                         </div>
                         @foreach ($member_count_2 as $key => $item)
-                            <div class="flex mr-5">
-                                <h4 class="wiheight">
-                                    Suksesi {{ $key }}
-                                </h4>
-                                <hr>
-                                <h6>
-                                    Jumlah Hak Pilih
-                                </h6>
-                                <h3>
-                                    {{ $item }}
-                                </h3>
-                                <h6>
-                                    Jumlah Hak Pilih Terpakai
-                                </h6>
-                                <h3>
-                                    @php $votinCounthim = isset($voting_count_2[$key]) ? $voting_count_2[$key] : 0; @endphp
-                                    {{ $votinCounthim }} ({{ sprintf('%.2f%%', ($votinCounthim / ($item ?: 1)) * 100) }})
-                                </h3>
-                                <h6>
-                                    Jumlah Hak Pilih Tidak Terpakai
-                                </h6>
-                                <h3>
-                                    {{ $item - $votinCounthim }} ({{ sprintf('%.2f%%', (($item - $votinCounthim) / ($item ?: 1)) * 100) }})
-                                </h3>
+                            @if ($key != 'Bisnis Digital S1')
+                                <div class="flex mr-5">
+                                    <h4 class="wiheight">
+                                        Suksesi {{ $key }}
+                                    </h4>
+                                    <hr>
+                                    <h6>
+                                        Jumlah Hak Pilih
+                                    </h6>
+                                    <h3>
+                                        {{ $item }}
+                                    </h3>
+                                    <h6>
+                                        Jumlah Hak Pilih Terpakai
+                                    </h6>
+                                    <h3>
+                                        @php $votinCounthim = isset($voting_count_2[$key]) ? $voting_count_2[$key] : 0; @endphp
+                                        {{ $votinCounthim }} ({{ sprintf('%.2f%%', ($votinCounthim / ($item ?: 1)) * 100) }})
+                                    </h3>
+                                    <h6>
+                                        Jumlah Hak Pilih Tidak Terpakai
+                                    </h6>
+                                    <h3>
+                                        {{ $item - $votinCounthim }} ({{ sprintf('%.2f%%', (($item - $votinCounthim) / ($item ?: 1)) * 100) }})
+                                    </h3>
 
-                            </div>
+                                </div>
+                            @endif
                         @endforeach
 
                     </div>

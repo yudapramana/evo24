@@ -7,24 +7,22 @@
         <img class="w-32 h-32" src="http://koeliah.com/wp-content/uploads/2018/05/undip.png" alt="Pemilihan">
     </div>
     <div>
-        <img class="h-32"
-            src="https://res.cloudinary.com/dezj1x6xp/image/upload/v1700062858/Proyek%20Pemira%20Undip%202023/Logo%20-%20logo/Logo_pemira_2023_pdbjdj.png"
-            alt="Pemilihan">
+        <img class="h-32" src="https://res.cloudinary.com/dezj1x6xp/image/upload/v1700062858/Proyek%20Pemira%20Undip%202023/Logo%20-%20logo/Logo_pemira_2023_pdbjdj.png" alt="Pemilihan">
     </div>
 
     <div clas="flex-grow">
 
     </div>
     {{-- <a href="{{ route('home') }}" class="pb-2 pl-3"> --}}
-        <div class="pb-2 pl-5">
+    <div class="pb-2 pl-5">
 
-            {{-- <span class="text-2xl gr-dark-orange text-black pl-3">@yield('title', config('app.name', ''))</span>
+        {{-- <span class="text-2xl gr-dark-orange text-black pl-3">@yield('title', config('app.name', ''))</span>
             --}}
-            <span class="text-5xl gr-dark-orange text-black">PEMILIHAN UMUM RAYA Tahun 2023</span> <br>
-            <span class="text-3xl gr-dark-orange text-black">FAKULTAS EKONOMIKA DAN BISNIS</span> <br>
-            <span class="text-3xl gr-dark-orange text-black">UNIVERSITAS DIPONEGORO</span> <br>
-        </div>
-        {{--
+        <span class="text-5xl gr-dark-orange text-black">PEMILIHAN UMUM RAYA Tahun 2024</span> <br>
+        <span class="text-3xl gr-dark-orange text-black">FAKULTAS EKONOMIKA DAN BISNIS</span> <br>
+        <span class="text-3xl gr-dark-orange text-black">UNIVERSITAS DIPONEGORO</span> <br>
+    </div>
+    {{--
     </a> --}}
 
     <div class="block lg:hidden">

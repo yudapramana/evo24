@@ -65,34 +65,36 @@
 
                         </div>
                         <?php $__currentLoopData = $member_count_2; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $key => $item): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
-                            <div class="flex mr-5">
-                                <h4 class="wiheight">
-                                    Suksesi <?php echo e($key); ?>
+                            <?php if($key != 'Bisnis Digital S1'): ?>
+                                <div class="flex mr-5">
+                                    <h4 class="wiheight">
+                                        Suksesi <?php echo e($key); ?>
 
-                                </h4>
-                                <hr>
-                                <h6>
-                                    Jumlah Hak Pilih
-                                </h6>
-                                <h3>
-                                    <?php echo e($item); ?>
+                                    </h4>
+                                    <hr>
+                                    <h6>
+                                        Jumlah Hak Pilih
+                                    </h6>
+                                    <h3>
+                                        <?php echo e($item); ?>
 
-                                </h3>
-                                <h6>
-                                    Jumlah Hak Pilih Terpakai
-                                </h6>
-                                <h3>
-                                    <?php $votinCounthim = isset($voting_count_2[$key]) ? $voting_count_2[$key] : 0; ?>
-                                    <?php echo e($votinCounthim); ?> (<?php echo e(sprintf('%.2f%%', ($votinCounthim / ($item ?: 1)) * 100)); ?>)
-                                </h3>
-                                <h6>
-                                    Jumlah Hak Pilih Tidak Terpakai
-                                </h6>
-                                <h3>
-                                    <?php echo e($item - $votinCounthim); ?> (<?php echo e(sprintf('%.2f%%', (($item - $votinCounthim) / ($item ?: 1)) * 100)); ?>)
-                                </h3>
+                                    </h3>
+                                    <h6>
+                                        Jumlah Hak Pilih Terpakai
+                                    </h6>
+                                    <h3>
+                                        <?php $votinCounthim = isset($voting_count_2[$key]) ? $voting_count_2[$key] : 0; ?>
+                                        <?php echo e($votinCounthim); ?> (<?php echo e(sprintf('%.2f%%', ($votinCounthim / ($item ?: 1)) * 100)); ?>)
+                                    </h3>
+                                    <h6>
+                                        Jumlah Hak Pilih Tidak Terpakai
+                                    </h6>
+                                    <h3>
+                                        <?php echo e($item - $votinCounthim); ?> (<?php echo e(sprintf('%.2f%%', (($item - $votinCounthim) / ($item ?: 1)) * 100)); ?>)
+                                    </h3>
 
-                            </div>
+                                </div>
+                            <?php endif; ?>
                         <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>
 
                     </div>
