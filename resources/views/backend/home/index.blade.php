@@ -41,7 +41,7 @@
                     <div class="kt-widget14__content">
                         <div class="flex mr-5">
                             <h4 class="wiheight">
-                                PEMIRA 2024
+                                PEMIRA 2023
                             </h4>
                             <hr>
                             <h6>
@@ -97,7 +97,7 @@
                     <div class="kt-widget14__content" style="margin-top:50px !important;">
                         <div class="flex mr-5" style="color:white !important;">
                             <h4 class="wiheight">
-                                PEMIRA 2024
+                                PEMIRA 2023
                             </h4>
                             <hr style="border-top: none !important;">
                             <h6>
@@ -161,7 +161,7 @@
                     <div class="kt-portlet__head">
                         <div class="kt-portlet__head-label">
                             <h3 class="kt-portlet__head-title">
-                                Rekapitulasi Pemilihan BEM FEB UNDIP 2024
+                                Rekapitulasi Pemilihan BEM FEB UNDIP 2023
                             </h3>
                         </div>
                     </div>
@@ -230,8 +230,9 @@
                                         </div>
                                         <div class="kt-widget5__content">
                                             <div class="kt-widget5__stats">
-                                                @php$votingCount = isset($voting_count_2[$jurusan]) ? $voting_count_2[$jurusan] : 1;
-                                                                                                                                                @endphp ?> ?>
+                                                @php
+                                                    $votingCount = isset($voting_count_2[$jurusan]) ? $voting_count_2[$jurusan] : 1;
+                                                @endphp
                                                 <span class="kt-widget5__number text-info text-center">{{ count($item->voting2) }} ({{ sprintf('%.2f%%', (count($item->voting2) / ($votingCount ?: 1)) * 100) }})</span>
                                                 <span class="kt-widget5__votes">suara</span>
                                             </div>
@@ -280,8 +281,9 @@
                                         </div>
                                         <div class="kt-widget5__content">
                                             <div class="kt-widget5__stats">
-                                                @php$votingCount = isset($voting_count_3[$jurusan]) ? $voting_count_3[$jurusan] : 1;
-                                                                                                                                                @endphp ?> ?>
+                                                @php
+                                                    $votingCount = isset($voting_count_3[$jurusan]) ? $voting_count_3[$jurusan] : 1;
+                                                @endphp
                                                 <span class="kt-widget5__number text-info text-center">{{ count($item->voting3) }} ({{ sprintf('%.2f%%', (count($item->voting3) / ($votingCount ?: 1)) * 100) }})</span>
                                                 <span class="kt-widget5__votes">suara</span>
                                             </div>
