@@ -13,7 +13,7 @@
         </li>
     </ul> --}}
 
-    <p class="text-white text-sm text-center">© 2023 DukungCalonmu.com</p>
+    <p class="text-white text-sm text-center">© 2024 DukungCalonmu.com</p>
     <p class="text-white text-xs text-center">Server time: {{ date('Y-m-d H:i:s') }}</p>
     {{-- <p class="text-white text-xs text-center">Vote Start: {{ $schedule->start_time }}</p>
     <p class="text-white text-xs text-center">Vote End: {{ $schedule->end_time }}</p> --}}

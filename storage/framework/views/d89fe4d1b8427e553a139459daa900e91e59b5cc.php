@@ -25,7 +25,7 @@
         <h1 class="text-gray-secondary text-xl">Belum ada data kandidat!</h1>
     </div>
     <?php else: ?>
-    <h2 class="text-center text-4xl font-extrabold font-serif mb-4">PEMILIHAN UMUM RAYA FEB UNDIP 2023
+    <h2 class="text-center text-4xl font-extrabold font-serif mb-4">PEMILIHAN UMUM RAYA FEB UNDIP 2024
     </h2>
     <div class="flex flex-wrap justify-center  mb-20">
 
@@ -63,7 +63,7 @@
             
             <h2 class="text-center text-2xl font-extrabold font-serif mb-4">SUKSESI <?php echo e(strtoupper($key)); ?>
 
-                DI LINGKUP FEB UNDIP 2023 </h2>
+                DI LINGKUP FEB UNDIP 2024 </h2>
 
             <?php $__currentLoopData = $cans; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $k => $item): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
             <div class="py-2 px-2 w-full md:w-1/2 mb-20">
@@ -99,7 +99,7 @@
             
             <h2 class="text-center text-2xl font-extrabold font-serif mb-4">PEMILIHAN SENAT <?php echo e(strtoupper($key)); ?>
 
-                DI LINGKUP FEB UNDIP 2023 </h2>
+                DI LINGKUP FEB UNDIP 2024 </h2>
 
             <?php $__currentLoopData = $cans; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $k => $item): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
             <div class="py-2 px-2 w-full md:w-1/2 mb-20">

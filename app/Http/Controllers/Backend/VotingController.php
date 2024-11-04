@@ -100,6 +100,6 @@ class VotingController extends Controller
 
         // return $list;
 
-        return Excel::download(new VotingExport($list), 'e-voting UNDIP 2023.xlsx');
+        return Excel::download(new VotingExport($list), 'e-voting UNDIP 2024.xlsx');
     }
 }
