@@ -36,7 +36,7 @@
         <div class="pb-2 pl-5" style="font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; font-weight:bolder;">
 
             
-            <span class="text-5xl gr-dark-orange text-black">PEMILIHAN UMUM RAYA Tahun 2024</span> <br>
+            <span class="text-5xl gr-dark-orange text-black">PEMILIHAN UMUM RAYA TAHUN 2024</span> <br>
             <span class="text-3xl gr-dark-orange text-black">FAKULTAS EKONOMIKA DAN BISNIS</span> <br>
             <span class="text-3xl gr-dark-orange text-black">UNIVERSITAS DIPONEGORO</span> <br>
         </div>
