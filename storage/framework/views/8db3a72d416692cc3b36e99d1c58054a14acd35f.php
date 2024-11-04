@@ -57,14 +57,13 @@
 
             <div class="container">
 
-                
-                <div class="flex flex-wrap justify-center">
-                    <?php $__currentLoopData = $candidates2; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $key => $cans): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
-                        <?php if($cans[0]->name != 'SKIP PEMILIHAN'): ?>
-                            
-                            <h2 class="text-center text-2xl font-extrabold font-serif mb-4">SUKSESI <?php echo e(strtoupper($key)); ?>
 
-                                DI LINGKUP FEB UNDIP 2024 </h2>
+                <?php $__currentLoopData = $candidates2; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $key => $cans): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
+                    <?php if($cans[0]->name != 'SKIP PEMILIHAN'): ?>
+                        <h2 class="text-center text-2xl font-extrabold font-serif mb-4">SUKSESI <?php echo e(strtoupper($key)); ?>
+
+                            DI LINGKUP FEB UNDIP 2024 </h2>
+                        <div class="flex flex-wrap justify-center">
 
                             <?php $__currentLoopData = $cans; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $k => $item): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
                                 <div class="py-2 px-2 w-full md:w-1/2 mb-20">
@@ -89,9 +88,11 @@
                                     </div>
                                 </div>
                             <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>
-                        <?php endif; ?>
-                    <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>
-                </div>
+                        </div>
+                    <?php endif; ?>
+                <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>
+
+                
 
 
 

@@ -58,12 +58,43 @@
 
             <div class="container">
 
-                {{-- <h2 class="text-center text-4xl font-extrabold font-serif mb-4">SUKSESI JURUSAN DI LINGKUP FEB
-            UNDIP 2023 </h2> --}}
-                <div class="flex flex-wrap justify-center">
+
+                @foreach ($candidates2 as $key => $cans)
+                    @if ($cans[0]->name != 'SKIP PEMILIHAN')
+                        <h2 class="text-center text-2xl font-extrabold font-serif mb-4">SUKSESI {{ strtoupper($key) }}
+                            DI LINGKUP FEB UNDIP 2024 </h2>
+                        <div class="flex flex-wrap justify-center">
+
+                            @foreach ($cans as $k => $item)
+                                <div class="py-2 px-2 w-full md:w-1/2 mb-20">
+                                    <div class="object-center h-12">
+                                        <div class="frame-number">
+                                            <h1 class="text-5xl m-auto">{{ $item->number }}</h1>
+                                        </div>
+                                    </div>
+                                    <div class="rounded-large overflow-hidden shadow-lg bg-white">
+                                        <div class="kandidat-container @if ($item->jurusan == 'Manajemen dan Bisnis Digital S1') manajemen @endif @if ($item->jurusan == 'Akuntansi S1') akuntansi @endif @if ($item->jurusan == 'Ekonomi Islam S1') ekonomi-islam @endif @if ($item->jurusan == 'Ekonomi S1') ekonomi @endif">
+                                            <p class="text-center pt-24 text-white px-6 text-2xl mx-auto">{{ $item->name }}</p>
+                                        </div>
+                                        <div class="object-center h-10 mt-8 flex">
+                                            <img src="{{ $item->image }}" class="kandidat-frame object-cover">
+                                            @if ($item->image_vice)
+                                                <img src="{{ $item->image_vice }}" class="kandidat-frame object-cover">
+                                            @endif
+                                        </div>
+                                        <div class="text-center pb-10 pt-10 flex flex-col">
+
+                                        </div>
+                                    </div>
+                                </div>
+                            @endforeach
+                        </div>
+                    @endif
+                @endforeach
+
+                {{-- <div class="flex flex-wrap justify-center">
                     @foreach ($candidates2 as $key => $cans)
                         @if ($cans[0]->name != 'SKIP PEMILIHAN')
-                            {{-- {{ $key }} --}}
                             <h2 class="text-center text-2xl font-extrabold font-serif mb-4">SUKSESI {{ strtoupper($key) }}
                                 DI LINGKUP FEB UNDIP 2024 </h2>
 
@@ -92,7 +123,7 @@
                             @endforeach
                         @endif
                     @endforeach
-                </div>
+                </div> --}}
 
 
 

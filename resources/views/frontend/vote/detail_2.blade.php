@@ -30,12 +30,12 @@
 
         @if ($jurusan == 'Manajemen S1')
             <div>
-                <img class="h-32" src="http://res.cloudinary.com/dezj1x6xp/image/upload/v1730722493/PandanViewMandeh/1_nsiwsh.png" alt="Manajemen">
+                <img class="h-32" src="http://res.cloudinary.com/dezj1x6xp/image/upload/v1730731720/PandanViewMandeh/MSA_Manajemen_obomob.png" alt="Manajemen">
             </div>
         @endif
         @if ($jurusan == 'Ekonomi S1')
             <div>
-                <img class="h-32" src="http://res.cloudinary.com/dezj1x6xp/image/upload/v1730722557/PandanViewMandeh/2_u8ayki.png" alt="Ekonomi">
+                <img class="h-32" src="http://res.cloudinary.com/dezj1x6xp/image/upload/v1730731776/PandanViewMandeh/DESC_Ekonomi_ctcah8.png" alt="Ekonomi">
             </div>
         @endif
         @if ($jurusan == 'Ekonomi Islam S1')
